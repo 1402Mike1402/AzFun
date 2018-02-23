@@ -6,7 +6,7 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceW
 
     // parse query parameter
     string name = req.GetQueryNameValuePairs()
-        .FirstOrDefault(q => string.Compare(q.Key, "name", true) == 0)
+        .FirstOrDefault(q => string.Compare(q.Key, "sadewa", true) == 0)
         .Value;
 
     // Get request body
